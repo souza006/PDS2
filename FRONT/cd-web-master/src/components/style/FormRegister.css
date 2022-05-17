@@ -1,0 +1,88 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+.cadastro{
+    flex-wrap: wrap;
+    padding: 2%;
+    background-color: rgb(252, 252, 252);
+    margin-top: 5%;
+    /* flex-wrap: wrap; */
+}
+
+.cadastroDiv {
+    background-color: white;
+    width: 35%;
+    padding: 40px 25px; 
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cadastroDiv h3{
+    color: #6495ED;
+    text-align: center;
+}
+
+.formCadastro {
+    display: inline;
+    text-align: center;
+}
+
+.ladoImage{
+    width: 60%;
+    margin-left: 1%;
+}
+
+.diario {
+    background-color: #6495ED;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.input{
+    border: 0 none;
+    border-bottom: thin solid;
+    margin-bottom: 50px;
+    text-align: justify;
+    background-color: rgba(200, 200, 200, 0);
+    color: #6495ED;
+}
+
+.input::-webkit-input-placeholder {
+    color: #6495ED;
+ }
+ 
+ .input:-moz-placeholder { 
+    color: #fbc271;  
+ }
+ 
+ .input::-moz-placeholder {  
+    color: #fbc271;  
+ }
+ 
+ .input:-ms-input-placeholder {  
+    color: #fbc271;  
+ }
+
+.input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    border-bottom: 1px solid;
+    outline: 0;
+    background-color: rgba(150, 150, 150, 0.0);
+    color: #fbc271;
+}
+
+.btnCadastro {
+    background-color: white;
+    color:#6495ED;
+    border: 1px solid #6495ED;
+    border-radius: 50px;
+    width: 50%;
+}
+
+.btnCadastro:hover {
+    border: 1px solid #6495ED;
+}

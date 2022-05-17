@@ -1,0 +1,85 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+.login{
+    padding: 2%;
+}
+
+.loginDiv{
+    width: 45%;
+    min-width:370px;
+    padding-top: 5%;
+    overflow-x: hidden;
+
+}
+
+.login-name{
+    color: orange;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 5%;
+    border-radius: 50px;
+}
+
+.formLogin{
+    padding: 15% 0%;
+    background-color: white;
+    padding: 40px 30px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.imgRight{
+    margin-top: 5%;
+    width: 65%;
+    margin-left: 1%;
+    background-image: url('../../public/images/digitando2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+}
+
+.btnLogin {
+    background-color: white;
+    color:#6495ED;
+    border: 1px solid #6495ED;
+    border-radius: 50px;
+    width: 50%;
+}
+
+.btnLogin:hover {
+    background-color:#6495ED;
+    color:white;
+    border: 1px solid #6495ED;
+}
+
+.inputForm{
+    margin-top: 20px !important;
+}
+
+.error{
+    color:#db3700
+}
+
+.customMessage{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    color:orange
+}
+.readingImage{
+    height:40.6em
+}
+
+@media (max-width: 600px)
+{
+  #content{
+    flex-direction: column !important;
+  }
+  .readingImage{
+    height:20.6em
+}
+}

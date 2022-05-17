@@ -1,0 +1,64 @@
+.navbar {
+    padding-left: 80px ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.imgLogo {
+    width:50%;
+}
+.imageUser{
+    width: 16%;
+    border-radius: 50%;
+}
+
+.icon-search {
+    color: #fbc271;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.btnHeader {
+    color:white;
+    background-color: #6495ED;
+    margin-left: 10px;
+}
+.btnHeader:hover {
+    color:#6495ED;
+    background-color: white;
+}
+.fa-search {
+    color: white;
+}
+
+.formInput {
+    padding-right: 100px;
+}
+.perfil{
+    color: #FFF;
+}
+
+.perfil:hover{
+    color: #222;
+}
+
+.dropdownMenu:hover{
+    color: #222;
+}
+.dropdownMenu{
+    color: #fbc271;
+}
+
+.espaco {
+    padding-left: 30px;
+}
+
+/* .input-group{
+    margin-left: -100px;
+    padding-left: 40px;
+} */
+
+
+
+

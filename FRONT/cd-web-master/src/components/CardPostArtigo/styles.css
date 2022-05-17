@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.pageArtigosHome{
+    margin-top: 5%;
+    /* background-color: pink; */
+}
+
+/* .ladoEsquerdo{
+    width: 60%;
+    padding-top: 2%;
+    border-right: solid thin #e6e6e6;
+    /* background-color: pink; */
+
+
+.ladoDireito{
+    width: 40%;
+    padding-top: 3%;
+    /* background-color: purple; */
+}
+
+.tagsGeral{
+    margin: 3% 0;
+    padding-left: 7%;
+    /* background-color: aqua; */
+    /* justify-content:center; */
+    
+}
+
+.title1{
+    text-align: center;
+    color: rgb(255, 184, 53);
+}
+
+.title2{
+    text-align: center;
+    margin-bottom: 2%;
+    color: rgb(255, 184, 53);
+}
+
+.postArtigo{
+    width: 78%;
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2%;
+    margin-left: 10%;
+    /* box-shadow: 3px 3px 5px -3px rgba(99,96,99,1); */
+}
+
+.postArtigo .headerPost{
+    padding: 1%;
+}
+
+.postArtigo .bodyPost{
+    text-align: justify;
+    padding: 3%;
+}
+
+.postArtigo .bodyPost .titlePost{
+    color: black;
+}
+
+.postArtigo .bodyPost .contentPost{
+   font-size: 0.8em;
+}
+
+.postArtigo .bodyPost .dataPublicPost{
+    font-size: 0.9em;
+ }
+
+ .postArtigo .bodyPost .dataHour{
+    font-size: 0.9em;
+    margin-left: 50%;
+ }
+
+ .postArtigo .titlePost a{
+    color: #6495ED;
+ }
+
+ .postArtigo .dataPublicPost a{
+    color: #00FF7F;
+ }
+
+ .button{
+    color:#6495ED;
+    border-color: #6495ED;
+}
+
+.button:hover{
+    color: white;
+    background-color: #6495ED;
+}
+
+.tagsPost{
+    padding: 0 1%;
+}
+
+.iconUser{
+    border-radius: 50%;
+}
+
+.iconUserPost{
+    float:right;
+    border-radius: 50%;
+}

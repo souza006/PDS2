@@ -1,0 +1,25 @@
+.cardDiario{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    float: left;
+    max-width: 270px;
+    width: 270px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin-right: 25px;
+    border-radius: 5px;
+}
+.cardDiarioCorpo{
+    flex: auto;
+    align-items: center;
+    padding: 20px;
+}
+
+.diary-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    align-items: flex-start;
+}

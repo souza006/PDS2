@@ -1,0 +1,13 @@
+body {
+  font-family: Roboto;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./public/Roboto-Medium.ttf');
+}
+
+

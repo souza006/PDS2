@@ -1,0 +1,43 @@
+{
+  "name": "clarimdiarioapi",
+  "version": "1.0.0",
+  "description": "NodeJS Restful API - ClarimDiario",
+  "author": "Emerson Carvalho",
+  "private": true,
+  "scripts": {
+    "start": "node ./app",
+    "dev": "nodemon ./app.js ",
+    "test": "cross-env ENV=TESTE mocha --recursive --timeout 100000 --exit",
+    "coverage":"nyc --reporter=html  --reporter=text  npm run test"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chai-http": "^4.3.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "database-cleaner": "^1.3.0",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "expect": "^26.6.2",
+    "express": "~4.16.1",
+    "express-jwt": "^6.0.0",
+    "http-errors": "~1.6.3",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongo-mock": "^4.0.0",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.9.23",
+    "mongoose-url-slugs": "^1.0.2",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "slug": "^3.3.5"
+  },
+  "devDependencies": {
+    "chai": "^4.3.1",
+    "cross-env": "^7.0.3",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0"
+  }
+}

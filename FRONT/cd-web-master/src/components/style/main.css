@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar {
+    background-color: #fbc271;
+}
+
+#header{ 
+    background-color: #fbc271;    
+}
+
+#imageUser{
+    border-radius: 50%;
+}
+
+.optionsNavUser{
+    font-size: 0.9em;
+    text-align: left;
+}
+
+#areaForm{
+    width: 80%;
+    border-radius: 0.5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-top: 6%;
+    margin-bottom: 7%;
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+#formArticle{
+    margin-top:5%;   
+}
+
+.imgLogo {
+    width:30%;
+    padding-left: 25px;
+}
+
+.icon-search {
+    color: #fbc271;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+#searchNav{
+    margin-left: 18%;
+}
+
+.teste{
+    text-align: center;
+}
+
+.titleEditar{
+    justify-content: center;
+}
+
+.title2Editar{
+    width: 35%;
+    background-color: #6495ED;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.label{
+    color: #6495ED;
+}
+
+.botaoRegistrar{
+    background-color: white;
+    color:#6495ED;
+    width: 50%;
+}
+
+.botaoRegistrar:hover {
+}
+
+.botaoEditar{
+    background-color: white;
+    color:#6495ED;
+    border: 1px solid #6495ED;
+    border-radius: 50px;
+    width: 30%;
+}
+
+.botaoEditar:hover {
+    background-color:#6495ED;
+    color:white;
+    border: 1px solid #6495ED;
+}
+
+.input{
+    /* border-color: #6495ED; */
+}

@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/*family to titles*/
+h1,h2,h3,h4,h5{
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+h1,h2,h3{
+  text-align: center;
+}
+p{
+  text-align: justify;
+  font-size: 1em;
+}
+.subtitulo{
+  margin-bottom: 1%;
+  font-style: italic;
+  font-size: 0.9em;
+  text-align: center;
+}
+h1{
+  color: #6495ED;
+}
+h3{
+  margin-top:10;
+  margin-bottom: 0px;
+  font-size:1.6em
+}
+
+h5{
+  /* font-style: italic; */
+}
+
+.iconUserArtigo{
+  border-radius: 50%;
+  height: 70px;
+}
+
+.createArticle {
+  color:  #fbc271;
+  font-size: 0.8em;
+}
+
+.corpoArtigo{
+  font-size: 0.9em;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+/* class to align text container in the center of page*/
+div.cla-container-text{
+  max-width: 70%;
+  margin-left: 10%;
+}
+div.cla-container-text h1,h2,h3{
+ text-align: left;
+}
+
+img.cla-profile-pic{
+  border-radius:50%;
+  height: 3em;
+  margin-top: 10px;
+}
+
+div.cla-author-box{
+margin-bottom: 1em; 
+display: flex; 
+}
+
+div.cla-author-description{
+  margin-left: 10px;
+  margin-top:0px
+}
+
+img.cla-icon{
+  height: 1.3em;
+}
+
+div.cla-actions-box{
+  display: flex;
+}
+
+div.cla-comment-box{
+  border : 2px solid black;
+}
+.buttonArtigo{
+  background-color: white;
+  color:#6495ED;
+  border: 1px solid #6495ED;
+  border-radius: 50px;
+  margin-bottom: 3%;
+  font-size: 0.8em;
+}
+
+.buttonArtigo:hover{
+  background-color:#6495ED;
+  color:white;
+  border: 1px solid #6495ED;
+}
+
+.buttonArtigoExcluir{
+  background-color: white;
+  color:red;
+  border: 1px solid red;
+  border-radius: 50px;
+  margin-bottom: 3%;
+  font-size: 0.8em;
+}
+
+.buttonArtigoExcluir:hover{
+  border: 1px solid red;
+}
+
+.comments{
+  padding: 1%;
+  margin-top: 1%;
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.comments .nomeAutorComment{
+  color: #6495ED;
+}
+
+.comments .dataComment{
+  font-size: 0.8em;
+}
+
+.resultadoBusca{
+  margin-top: 10%; 
+}
+
+.resultadoBusca .containerBusca{
+  width: 60%;
+}
+
+.resultadoBusca h5{
+  margin-bottom: 6%; 
+}

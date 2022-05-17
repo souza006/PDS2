@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imageCard2{
+}
+
+.areaArtigos{
+    display: flex;
+    margin-top: 3%;
+    flex-direction: row;
+}
+
+.cardAutor { 
+    /* border: solid thin grey;
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1); */
+    padding: 3%;
+    margin-top: 6%;
+}
+
+.imageAutor{
+    /* border: grey solid  #fbc271;
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1); */
+    border-radius: 50px;
+    border: solid medium #17a2b8;
+}
+
+
+.dadosAutor h2{
+    color: #17a2b8;
+    margin-bottom: 2%;
+}
+
+.dadosAutor h4{
+    color: #17a2b8;
+    margin-bottom: 2%;
+}
+
+.dadosAutor p{
+    font-size: 0.9em;
+}
+
+.dadosAutor .emailAutor{
+    color: #bebebe;
+}
+
+.dadosAutor .btnEditUser a{
+    font-size: 0.9em;
+}
+
+.dadosAutor .bioAutor {
+    border-left: solid medium #17a2b8;
+    padding-left: 5px;
+}
+
+.cardArtigo{
+    width: 50%;
+    padding: 3%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cardArtigo h4{
+    color:#6495ED; 
+}
+
+.cardArtigo p{
+    font-size: 0.8em;
+}
+
+.buttonUser{
+    background-color: white;
+    color:#6495ED;
+    border: 1px solid #6495ED;
+    border-radius: 50px;
+    width: 20%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+
+.buttonUser:hover{
+    background-color:#6495ED;
+    color:white;
+    border: 1px solid #6495ED;
+}
+
+.buttonUserExcluir{
+    width: 20%;
+    padding: 0.5%;
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50px;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+
+.buttonUserExcluir:hover{
+    background-color:red;
+    color:white;
+    border: 1px solid red;
+}

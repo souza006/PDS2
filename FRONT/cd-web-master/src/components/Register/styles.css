@@ -1,0 +1,10 @@
+.backgroundPage {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../public/images/jornal2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    opacity: 1;
+}

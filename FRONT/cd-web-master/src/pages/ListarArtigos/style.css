@@ -1,0 +1,39 @@
+/*listagem das tags*/
+.main-custom-tag{
+  border: 1px solid #FBC288;
+  border-radius: 5px;
+  background-color: #FBC288;
+  width: 150px;
+  align-items: center;
+  color:white;
+  margin:5px;
+  padding:2px;
+
+}
+.main-custom-tag:hover{
+
+  background-color: #e6b74a;  
+}
+
+.main-custom-tag-container{
+  margin-top: 100px;
+  margin-left: 110px;
+  display: flex;
+  width: 100%;
+  min-width: 100px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 860px;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.main-custom-tag-container:hover>a{
+  text-decoration: none;
+}
+
+.titleHome{
+  text-align: center;
+  color: #3f51b5;
+}
+

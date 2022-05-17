@@ -1,0 +1,1132 @@
+(this["webpackJsonpclarim-diario-react"] = this["webpackJsonpclarim-diario-react"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/App.css ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".App {\r\n  text-align: center;\r\n}\r\n\r\n.App-logo {\r\n  height: 40vmin;\r\n  pointer-events: none;\r\n}\r\n\r\n@media (prefers-reduced-motion: no-preference) {\r\n  .App-logo {\r\n    animation: App-logo-spin infinite 20s linear;\r\n  }\r\n}\r\n\r\n.App-header {\r\n  background-color: #282c34;\r\n  min-height: 100vh;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n  font-size: calc(10px + 2vmin);\r\n  color: white;\r\n}\r\n\r\n.App-link {\r\n  color: #61dafb;\r\n}\r\n\r\n@keyframes App-logo-spin {\r\n  from {\r\n    transform: rotate(0deg);\r\n  }\r\n  to {\r\n    transform: rotate(360deg);\r\n  }\r\n}\r\n\r\n\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/style/FormLogin.css":
+/*!***********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/style/FormLogin.css ***!
+  \***********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".container {\r\n    width: 100%;\r\n    display: inline;\r\n}\r\n.cadastroDiv {\r\n    width: 35%;\r\n    float: left;\r\n    border: 0 none;\r\n    padding-left: 5%;\r\n    padding-top: 8%;\r\n    padding-bottom: 6%;\r\n    background-color: rgba(150, 150, 150, 0.8)\r\n}\r\n\r\n.formLogin {\r\n    margin-left: 40px;\r\n    margin-top: 100px;\r\n    display: inline;\r\n    align-items: center;\r\n    justify-content: center;\r\n}\r\n\r\n.imgRight {\r\n    width: 65%;\r\n    float:right\r\n}\r\n\r\n.imgClarim{\r\n    width: 80%;\r\n    margin-top: 12%;\r\n    margin-left: 11%;\r\n}\r\n.input{\r\n    border: 0 none;\r\n    border-bottom: 2px solid;\r\n    margin-bottom: 50px;\r\n    /* margin-left: 7%; */\r\n    text-align: justify;\r\n    background-color: rgba(200, 200, 200, 0);\r\n    color: white;\r\n}\r\n\r\n.input::-webkit-input-placeholder {\r\n    color: white;\r\n }\r\n \r\n .input:-moz-placeholder { /* Firefox 18- */\r\n    color: white;  \r\n }\r\n \r\n .input::-moz-placeholder {  /* Firefox 19+ */\r\n    color: white;  \r\n }\r\n \r\n .input:-ms-input-placeholder {  \r\n    color: white;  \r\n }\r\n\r\n.input:focus{\r\n    box-shadow: 0 0 0 0;\r\n    border: 0 none;\r\n    border-bottom: 1px solid;\r\n    outline: 0;\r\n    background-color: rgba(150, 150, 150, 0.0);\r\n    color: white;\r\n}\r\n\r\nh1, h2 {\r\n    text-align: left;\r\n}\r\n\r\nh1 {\r\n    padding-top: 20px;\r\n    color: white;\r\n    margin-left: 8%;\r\n}\r\nh2 {\r\n    color: #fbc271;\r\n    margin-left: 22%;\r\n}\r\n\r\n\r\n\r\n.btnCadastro {\r\n    margin-bottom: 7%;\r\n    margin-left: 33%;\r\n    background-color: #fbc271;\r\n    color: white\r\n}\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/style/FormRegister.css":
+/*!**************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/style/FormRegister.css ***!
+  \**************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".container {\r\n    width: 100%;\r\n    display: inline;\r\n}\r\n.cadastroDiv {\r\n    width: 35%;\r\n    float: left;\r\n    border: 0 none;\r\n    padding-left: 5%;\r\n    padding-top: 0%;\r\n    background-color: rgba(150, 150, 150, 0.8)\r\n}\r\n\r\n.formCadastro {\r\n    margin-left: 40px;\r\n    display: inline;\r\n    align-items: center;\r\n    justify-content: center;\r\n}\r\n\r\n.imgRight {\r\n    width: 65%;\r\n    float:right\r\n}\r\n\r\n.imgClarim{\r\n    width: 80%;\r\n    margin-left: 11%;\r\n}\r\n.input{\r\n    border: 0 none;\r\n    border-bottom: 2px solid;\r\n    margin-bottom: 50px;\r\n    /* margin-left: 7%; */\r\n    text-align: justify;\r\n    background-color: rgba(200, 200, 200, 0);\r\n    color: white;\r\n}\r\n\r\n.input::-webkit-input-placeholder {\r\n    color: white;\r\n }\r\n \r\n .input:-moz-placeholder { /* Firefox 18- */\r\n    color: white;  \r\n }\r\n \r\n .input::-moz-placeholder {  /* Firefox 19+ */\r\n    color: white;  \r\n }\r\n \r\n .input:-ms-input-placeholder {  \r\n    color: white;  \r\n }\r\n\r\n.input:focus{\r\n    box-shadow: 0 0 0 0;\r\n    border: 0 none;\r\n    border-bottom: 1px solid;\r\n    outline: 0;\r\n    background-color: rgba(150, 150, 150, 0.0);\r\n    color: white;\r\n}\r\n\r\nh1, h2 {\r\n    text-align: left;\r\n}\r\n\r\nh1 {\r\n    padding-top: 20px;\r\n    color: white;\r\n    margin-left: 8%;\r\n}\r\nh2 {\r\n    color: #fbc271;\r\n    margin-left: 22%;\r\n}\r\n\r\n\r\n\r\n.btnCadastro {\r\n    margin-bottom: 7%;\r\n    margin-left: 25%;\r\n    background-color: #fbc271;\r\n    color: white\r\n}\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/style/Navbar.css":
+/*!********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/style/Navbar.css ***!
+  \********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".navbar {\r\n    background-color: #fbc271;\r\n}\r\n.imgLogo {\r\n    width:30%;\r\n    padding-left: 25px;\r\n}\r\n.icon-search {\r\n    color: #fbc271;\r\n    position: absolute;\r\n    padding-top: 10px;\r\n    padding-left: 10px;\r\n    cursor: pointer;\r\n}\r\n\r\n.btn {\r\n    background-color: white;\r\n    color: #fbc271;\r\n    \r\n}\r\n.btnDiv {\r\n    float: right;\r\n    margin-right: 2px;\r\n}\r\n\r\n.btnRegister {\r\n\r\n    margin-left: 10px;\r\n\r\n}\r\n\r\n.formInput {\r\n    margin-right: 20px;\r\n    padding-left: 10px;\r\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/style/Register.css":
+/*!**********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/style/Register.css ***!
+  \**********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../public/images/jornal2.png */ "./src/public/images/jornal2.png");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+// Module
+exports.push([module.i, ".backgroundPage {\r\n    width: 100%;\r\n    height: 100%;\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    background-position: center;\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    position: fixed;\r\n    opacity: 1;\r\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/styles.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/styles.css ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./public/Roboto-Medium.ttf */ "./src/public/Roboto-Medium.ttf");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+// Module
+exports.push([module.i, "body {\r\n  font-family: Roboto;\r\n  margin: 0;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n}\r\n\r\n@font-face {\r\n  font-family: 'Roboto';\r\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n}\r\ncode {\r\n}\r\n\r\n\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./src/App.css":
+/*!*********************!*\
+  !*** ./src/App.css ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css", function() {
+		var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./routes */ "./src/routes.js");
+var _jsxFileName = "C:\\Users\\Gerson\\OneDrive\\\xC1rea de Trabalho\\PDS\\front-end\\clarim-diario-react\\src\\App.js";
+
+
+
+
+function App() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_routes__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  });
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ }),
+
+/***/ "./src/components/FormLogin.js":
+/*!*************************************!*\
+  !*** ./src/components/FormLogin.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_style_FormLogin_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/style/FormLogin.css */ "./src/components/style/FormLogin.css");
+/* harmony import */ var _components_style_FormLogin_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components_style_FormLogin_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _public_images_logo_tipo_2_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../public/images/logo-tipo-2.png */ "./src/public/images/logo-tipo-2.png");
+/* harmony import */ var _public_images_logo_tipo_2_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_public_images_logo_tipo_2_png__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\Gerson\\OneDrive\\\xC1rea de Trabalho\\PDS\\front-end\\clarim-diario-react\\src\\components\\FormLogin.js";
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (props => {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "backgroundPage",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "cadastroDiv",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: undefined
+  }, "CLARIM DI\xC1RIO"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: undefined
+  }, "CADASTRO"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    className: "formLogin",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "form-control col-md-10 input",
+    type: "text",
+    placeholder: "Email",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "form-control col-md-10 input",
+    type: "password",
+    placeholder: "Senha",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn btnCadastro",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: undefined
+  }, "Entrar"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "imgRight",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _public_images_logo_tipo_2_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    className: "imgClarim",
+    alt: "Logo Clarim",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: undefined
+  }))));
+});
+
+/***/ }),
+
+/***/ "./src/components/FormRegister.js":
+/*!****************************************!*\
+  !*** ./src/components/FormRegister.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return FormRegister; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_style_FormRegister_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/style/FormRegister.css */ "./src/components/style/FormRegister.css");
+/* harmony import */ var _components_style_FormRegister_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components_style_FormRegister_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _public_images_logo_tipo_2_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../public/images/logo-tipo-2.png */ "./src/public/images/logo-tipo-2.png");
+/* harmony import */ var _public_images_logo_tipo_2_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_public_images_logo_tipo_2_png__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\Gerson\\OneDrive\\\xC1rea de Trabalho\\PDS\\front-end\\clarim-diario-react\\src\\components\\FormRegister.js";
+
+
+
+class FormRegister extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "container",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "cadastroDiv",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13
+      },
+      __self: this
+    }, "CLARIM DI\xC1RIO"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      },
+      __self: this
+    }, "CADASTRO"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+      className: "formCadastro",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      className: "form-control col-md-10 input",
+      type: "text",
+      placeholder: "Nickname (Apelido)",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      className: "form-control col-md-10 input",
+      type: "text",
+      placeholder: "Email",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      className: "form-control col-md-10 input",
+      type: "password",
+      placeholder: "Senha",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      className: "form-control col-md-10 input",
+      type: "password",
+      placeholder: "Repetir a Senha",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      className: "btn btnCadastro",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }, "Cadastrar"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "imgRight",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _public_images_logo_tipo_2_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+      className: "imgClarim",
+      alt: "Logo Clarim",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: this
+    })));
+  }
+
+}
+
+/***/ }),
+
+/***/ "./src/components/NavBar.js":
+/*!**********************************!*\
+  !*** ./src/components/NavBar.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _style_Navbar_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style/Navbar.css */ "./src/components/style/Navbar.css");
+/* harmony import */ var _style_Navbar_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_Navbar_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _public_images_signo_transparente_branco_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../public/images/signo-transparente-branco.png */ "./src/public/images/signo-transparente-branco.png");
+/* harmony import */ var _public_images_signo_transparente_branco_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_public_images_signo_transparente_branco_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+var _jsxFileName = "C:\\Users\\Gerson\\OneDrive\\\xC1rea de Trabalho\\PDS\\front-end\\clarim-diario-react\\src\\components\\NavBar.js";
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (props => {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "Navbar",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Navbar"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: props.path,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _public_images_signo_transparente_branco_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    className: "imgLogo",
+    alt: "Logo Clarim",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    className: "input-group col-md-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-search",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: undefined
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "form-control col-md-9 formInput",
+    type: "text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: undefined
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "btnDiv",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn btn-light btnLogin",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: undefined
+  }, "Login"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn btn-light btnRegister",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: undefined
+  }, "Cadastro"))));
+});
+
+/***/ }),
+
+/***/ "./src/components/Register.js":
+/*!************************************!*\
+  !*** ./src/components/Register.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _style_Register_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style/Register.css */ "./src/components/style/Register.css");
+/* harmony import */ var _style_Register_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_Register_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_FormRegister__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/FormRegister */ "./src/components/FormRegister.js");
+var _jsxFileName = "C:\\Users\\Gerson\\OneDrive\\\xC1rea de Trabalho\\PDS\\front-end\\clarim-diario-react\\src\\components\\Register.js";
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (props => {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "backgroundPage",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_FormRegister__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: undefined
+  }));
+});
+
+/***/ }),
+
+/***/ "./src/components/style/FormLogin.css":
+/*!********************************************!*\
+  !*** ./src/components/style/FormLogin.css ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./FormLogin.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/style/FormLogin.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./FormLogin.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/style/FormLogin.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./FormLogin.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/style/FormLogin.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/style/FormRegister.css":
+/*!***********************************************!*\
+  !*** ./src/components/style/FormRegister.css ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./FormRegister.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/style/FormRegister.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./FormRegister.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/style/FormRegister.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./FormRegister.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/style/FormRegister.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/style/Navbar.css":
+/*!*****************************************!*\
+  !*** ./src/components/style/Navbar.css ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Navbar.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/style/Navbar.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Navbar.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/style/Navbar.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Navbar.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/style/Navbar.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/style/Register.css":
+/*!*******************************************!*\
+  !*** ./src/components/style/Register.css ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Register.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/style/Register.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Register.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/style/Register.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Register.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/style/Register.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/styles.css":
+/*!***********************!*\
+  !*** ./src/styles.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/styles.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/styles.css", function() {
+		var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/styles.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles.css */ "./src/styles.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./App */ "./src/App.js");
+var _jsxFileName = "C:\\Users\\Gerson\\OneDrive\\\xC1rea de Trabalho\\PDS\\front-end\\clarim-diario-react\\src\\index.js";
+
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_App__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}), document.getElementById('root')); // If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+
+/***/ }),
+
+/***/ "./src/pages/index/index.js":
+/*!**********************************!*\
+  !*** ./src/pages/index/index.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\Gerson\\OneDrive\\\xC1rea de Trabalho\\PDS\\front-end\\clarim-diario-react\\src\\pages\\index\\index.js";
+
+
+function Index() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  });
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Index);
+
+/***/ }),
+
+/***/ "./src/pages/login/Login.js":
+/*!**********************************!*\
+  !*** ./src/pages/login/Login.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_NavBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/NavBar */ "./src/components/NavBar.js");
+/* harmony import */ var _components_FormLogin__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/FormLogin */ "./src/components/FormLogin.js");
+var _jsxFileName = "C:\\Users\\Gerson\\OneDrive\\\xC1rea de Trabalho\\PDS\\front-end\\clarim-diario-react\\src\\pages\\login\\Login.js";
+
+
+
+
+function Login() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_NavBar__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    path: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_FormLogin__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Login);
+
+/***/ }),
+
+/***/ "./src/pages/register/Register.js":
+/*!****************************************!*\
+  !*** ./src/pages/register/Register.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_NavBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/NavBar */ "./src/components/NavBar.js");
+/* harmony import */ var _components_Register__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Register */ "./src/components/Register.js");
+var _jsxFileName = "C:\\Users\\Gerson\\OneDrive\\\xC1rea de Trabalho\\PDS\\front-end\\clarim-diario-react\\src\\pages\\register\\Register.js";
+
+
+
+
+function Register() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_NavBar__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    path: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Register__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Register);
+
+/***/ }),
+
+/***/ "./src/public/Roboto-Medium.ttf":
+/*!**************************************!*\
+  !*** ./src/public/Roboto-Medium.ttf ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/Roboto-Medium.58aef543.ttf";
+
+/***/ }),
+
+/***/ "./src/public/images/jornal2.png":
+/*!***************************************!*\
+  !*** ./src/public/images/jornal2.png ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/jornal2.df55f2a7.png";
+
+/***/ }),
+
+/***/ "./src/public/images/logo-tipo-2.png":
+/*!*******************************************!*\
+  !*** ./src/public/images/logo-tipo-2.png ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/logo-tipo-2.1345a756.png";
+
+/***/ }),
+
+/***/ "./src/public/images/signo-transparente-branco.png":
+/*!*********************************************************!*\
+  !*** ./src/public/images/signo-transparente-branco.png ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALEAAADICAYAAACnBADMAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAA9ZSURBVHja7J1biF1XGcd/68yZW+bepM2tk07aJr2lmbTR1F5sFau2QotFsN7AF4WK4IsogkhmfBMffKkgiPgkleKrUtBaEEEKjdRL0TZtekm1qW0ymWSSzGQuy4f1LWbl9NznnDNnn/P/wWbO7LPPbZ3f/s63vrX23njvSRdRGu+9S5eZmZmc9z7nve/x3ue9973e+35bBmwZ9N5vKbEMJtv12+Pz9nw5e/4rXlPfwgdxheI6p3aKwqbNAuRs6UluxyUP9NqSt2167HE9yePjc/pkWQFW7e8KsGzLqi1ryRL/97Ozs/7o0aPevjMviSVxKq1LZI1LL9AHbLFlEBgA+m39gK0btHW9BY9PxSeKaH+jtJeBJWAxWdL/LyXLUiL6Sip3N0qdV7QlLnlbopRDwLAtI8AoMGHLqN0/VCB1XxKJC6O1KxGJVwsicSrzRWABOA+cA+ZtOZesP2+3F+2xK977+JxdIXW3SRx/eQrTgAETddwk3QZsTZargLFE3oFE2r4k8qayppGdgtupVL7IEqVeSoSOUXjBJJ4DTgPv2d8ztu6siX3RpF42qdc6VeiukNgibhS3N4m0qbTbgZ22XGP3jVgk3mKPiTlvGl1zJYTd0FtO0g1fkA9HudMofdZEfhc4ZUuUe862WQQuR6E7SeaOzYmTVCFXEG0nTNKdwC5gtwl8td03ZuL2FXTSckUkbUVj+SL/px292Bm8WCD0KeA/wNvAO8D/bP28RfSYU/usC91xEidRN2+drCFLCbabsHts2VUQcQcTcdNOWKtk3YjgPonSKxZ1FywKv28SnwTeTKQ+nUToFWA1qzJ3jMSJvL328z+eiLsXuB6YtHVbE3Fjh64wl81kMyTVj1j5WDKhz1g0Pgm8AZyw26csel+wHDrK7CVxi5iZmckdPXo0Z1F0yDphu03aG03gSYu6YyZu2hEj4+JWk1uvmtCLFn3fs1TjdeA1k/ptkzxG58ykGpmV2CJvj8k7YjntJHADcJP9vTaJummq0I3F8HRw5bLl0GcstXgTOA68bEK/a7nzokXmNUncPHmHLcJOmbg3WwTebfJuse1yHZAqNFrotSQ6z5vMJ4B/m8wnbN08sDQ7O7s6MzOzJokbl/MOW257nYl7K7DPIu9EkjLkJG7V0blQ5n/Z8pqtO2f5ddt1ADMhsfc+VhtipWHKxL09kXdrIq+ibv25c5T5v8CrwEu2vGZpxnmL4G1Ta25riZPUYcA6bHss8t5uEk8laYPkbbzMc9bhexn4u8n8OqFsd3F2dnalHVKMdpXYWfTttU7ZLpN32gS+3nLhkS7vrDWTWHe+RKgpvwH8E/ibpRlvmeRLmx2Vc+2Y+3rvY+qwCzgEPAg8Anwa+BChbDZhnbYeCdw0N2IQ2W0B5BPJ9/Bh65OMAb0zMzOb5lJbRWKLvn2EiTbXArcBh5PoG/Neibs51YwlwsDISYvKx4B/WIqxaVG5LSYAJZWHQcJknBuBO0zgWy0iDycVB9HiYGeBI3ac46DSDvtuXiCU5k4BF733K60UOdcmAuct+l4H3AU8ZMtHLHUYZ73eKzZX5rwFlEkLMp8EPgPcZ5WiCaCvlenFpqYTSedt3GQ9ZOIetEYaUfRt6xRjhTDn4h3r7D1vUfm4dQYXWzHat2nphAk8YOnDfuCIReFb7GdKuW82onIc0h+2YHSVrXsJOOW9v9TsPHkzJI7ls0GT9QBwt0m8zxqhX9E3U7nyAGEEtZ/1w7mGgBcJE40ueO+bNtLXUomTwYshqz4cAu4llM2mYrlG0TdzxLRwwv4Osn784THCBKPzzerw5VsscOwUTJm491kVYtLWK33Ifnoxat9vH+tHgPcR5mPMe++XGy1yvsUCj1oH7i7gfovEO22P1ahb56QX8Zc2HhbWb+tfBc42WuR8iwTutVThBqs+3E8YAdpue6ry385LLwYtQMUjZ2KQOt5okfMtEDhvAu8D7jGBb086AhK4c0UeIMxxOciVk7MaKnK+hQLfCzxgAl+DBi+6Jb3oJ5RRDxSsfwWYa0RnL99kgUcJQ8h3WwQ+SDiMqF/5b9eJfLUFMFifi/GKdfY2JHK+SQL3WLVhr+XAD0hgiZxE5DjNc5kw2f7cRurI+Sa82Zz1TvcQput91PZACSyRY0Q+wPrpBJYJs+AWvPd1jew1VGKLwoOEmU2HTeBpy4ElsHDWF4qdvSXWz/J50m6v1tODbKTA/fYGp1kfyNhhvVR14kR0rp9QnZq2QHfIPOmvZ/ZbQ2axmcB9lvPcAXzKOnJ7LbXo0XcnClglzIB7A/gz8Hvgr4SDUS/XklZsOJ1IOnKjhFLaXYQh5UnCSJwEFsXoMT8mzZd4hs9Faiy9NSInziVv5jBhNtr1hJlMElhUEnnEfrEvEA5xOkc4Q9F5krPfNy0nTtKI7VaBOEI4E8846yfpE6JcR6+HMCB2o/kT8+OBmZmZqvypOydOBjS2WQR+mFAPnrLILIFF1fHQKhMnLT/+HeEIkary442kE7EePGUSHyKU1gYksKgjIvdbBJ4mnJzlDOGkh2cJAyONlTg5tH47oXB9p8k8jEppYmNBcQ+hwhVPBH7JBkHWGp0Tp3nMnYRj5JQHi0bkx3G+zR2sHz2dL3chypojcXKAZzwrzAHWp1VKYLFRkeN4wy2Ew5reYb38trphiZPO3FVWhZgmnCtiSGmEaKDIg4QjQw6ayO8Bi6XmVtQqXsxbJu0F9sdwrygsGpxWjFs6MU2oI5ccd6ha4uQwo22EM1TeRjj8REdniGZ08mK14oC5th3ot3S27nQijcIHCvYO30FRQLSPyPHI+IOE6ZqnCaN5azVLnOTC44Qh5b3Wi4xnSnQZF64Tn8tl6DVL0WP9r/2EE0u+RTh/xRUXw8nX8ObiuWpHrZcYr38W72/1deAa+ZqlnsttMJK4Bklcz3PV+9h62rVZO4wnTJofJdSPdxDOXL+YRuNa04kewvUcjhFO5dlT8MFzLcyP09erVWRf4vM16kqihe/NN+BzujpkjNGsViFj5yrXgqDiyuxo8dK/C5ZKxBJcrp6cOF7H4QngaxW2XbS9pxQXCnOaAlYJw4217smXqDA8WeJzXahD1nhoTaX35Yp89lqFXrXPVs8OtWo5ZL2/JIVcrOIx1UocL/hYaidNL9C+TKgT77bP8/4VjV3NBCDLiccJB/VNqM8hNpEF6+zNxby42p+LHuBRCSzagGHgs6m71UqcA76g9hNtwldTdyumE1Zc3kmo0/Wq/UQb4AlzK44759aqicQ54HMSWLQRDvh8jMbVSvy42k20GV8Cct57V1ZiSyUmCedSE6KdiPN3cpUicQ74IppTINqTRwBXzWDHduBZQnH6Uon8pF5WCEXsWp/PE0YO62Ge+kbQFqh9MAXCAEE9Aw6l2rtaVou0bSOYa8JzLlDH6asIA069JasTNsAxRBgloYK8Q4Spc5W2S29vIQwh1sJQHR3MYWo/gqWec2aMJX2MWnaSHGFuQCPptc/dSAYIk9UbyZYGFAwez1do3EeBX+lXS7Qx9+YqSPxxtZFoc+4uJ7EDPqY2Em3OPUVzYiutXU040lSVCdHOrObKROHDElhkgJ5KEgvR9uTLSDyt5ulYzlF9XXaFUMetRLm69uUy9xUbK4h41g+BK8Y84EtJHC9h+osaG6dwQKBSOrJc0EDVpC/xvLXVUktxvtYBhnNUXxNeovyREaMb+JzLrB8HWS/9hLptI/GUroP7Gp6j7H0fkNgGOXK2B1woEHukQjVjrMIbGq9wfzpgUIxKAxdDrA+g1DLgUM/AS0ozBhdElZSqTkwQTq0pRNuTKxGJJ9U0IrMSW1pwrZpGZF3i3WoakWWJAbaqaUTWJR5T0whJLESLKFVzPQ28TOnaaZ7yddFRdCFGUT81DVB9oE5M6ZMCVjOaVs02lUaGxsvcN0R9gxJ9NH40qhlHOsTPd5Hy53qLFI54lqKWw7nOU91hWJeqfI+w8UOtykvXiAuU10O5q+HUsEPU/bm7KKr5Tnzt9Nod+c36dFVcfNojxAY6dkJIYiEksRCSWEhiISSxEK2hZInNe3+Exp9eSYhKvOCcO1vLA8qdi+154IjaVLSYF4EHnXOnlU6IrHII+IP3fpskFl0jsiQW7co08Cfv/Q5JLLLMLcBz3vudklhkmZuBP3rvd0li0bEiS2KRFW6y1GK3JBZZZn8xkSWxyBr7gD9776ckscgyUxaR90pi0REiS2KRZa4DnpXEIusoEovsI4mFJBZCEgshiYUkFkISCyGJhZDEQhILIYmFkMRCbIC8mqAtWCBcf2OjzLXBZ5mwpSsl/g7wXIu+qBXCBVY2yqJz7pL2wXW89z8AftitEp9wzh2TBkI5sZDEQkhiISSxEJJYSGIhJLEQLUUjdi3Ge/8wMFywegjoK1jXZ+tTHDBe5GlHinyXA8BTzrlnJLFoND8F9rbotf6idEI0A9fC11qWxEISS2KxyRKvSGKhSCyJhSSWxGpzpROSWJFYEgtJLInFpkqsdEIoEktiIYklsSRWOiGJFYklsZDEklhsbpsrnRCKxJJYSGJJLImVTkhiRWJJLCSxJBZKJySxJJbEkrh723zVObemBhVZjsTL3dKgkrhzJV6RxEKRWBILSSyJJbHSCUmsSCyJhSSWxOJKvPca6JDEisKKxJJYEktikSGJlU4IRWJJLCSxJJbESicksSKxJBYZb29JLJROSGKhdEISS2JJLImVTkhioUgsiYUkbgl5eRXw3o+bZD3AqK0eAAbt9jDQa7fjtnlgpMy2Tzrn3lY60T0SH/TeLwBj9n8fMGS3twD9dnvMfkFyybb9tg32mL6CbVMxS23bDH4DbJbED3nvn96E7/HWbpb4aCcG+E1M3/bbopxYZDYn7hokcWsjsSSWxIrEQhJLYkksJLEkVk4sJLEisZDEam81qlAklsTKiYUkViQWklgSS2IhiduKZySxcuIs81vgMUmsSJxVngYec84tSmKlb1nkKeDLzrllNaoicRb5OfAV59yKIoNy4izyM+CJwsv9SmJF4qzwY+fcN4pdr1oSS+Is8CPn3HfV0VA6kVWOOue+V24DnXdCkbidA8C3nXM/qbShJJbE7Srwt5xzT1azsSSWxO3GKvB159wvq32AJK6O85Q/LdQCxc99drng/2XghJqzLN93zv26psjg/ZV9D+dCsPDefxOYBJaAi2We4zJwocz9KyZBuT3vXJn714D5Cp9jrsL9Z4t0slLmi5VuRDb4/wBrk9h/LVXNCAAAAABJRU5ErkJggg=="
+
+/***/ }),
+
+/***/ "./src/routes.js":
+/*!***********************!*\
+  !*** ./src/routes.js ***!
+  \***********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _pages_index_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/index/index */ "./src/pages/index/index.js");
+/* harmony import */ var _pages_register_Register__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/register/Register */ "./src/pages/register/Register.js");
+/* harmony import */ var _pages_login_Login__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/login/Login */ "./src/pages/login/Login.js");
+var _jsxFileName = "C:\\Users\\Gerson\\OneDrive\\\xC1rea de Trabalho\\PDS\\front-end\\clarim-diario-react\\src\\routes.js";
+
+
+
+
+
+
+function Routes() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["BrowserRouter"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/",
+    exact: true,
+    component: _pages_index_index__WEBPACK_IMPORTED_MODULE_2__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/register",
+    exact: true,
+    component: _pages_register_Register__WEBPACK_IMPORTED_MODULE_3__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/login",
+    exact: true,
+    component: _pages_login_Login__WEBPACK_IMPORTED_MODULE_4__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  })));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Routes);
+
+/***/ }),
+
+/***/ 1:
+/*!**************************************************************************************************************!*\
+  !*** multi (webpack)/hot/dev-server.js ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\Gerson\OneDrive\Área de Trabalho\PDS\front-end\clarim-diario-react\node_modules\webpack\hot\dev-server.js */"./node_modules/webpack/hot/dev-server.js");
+__webpack_require__(/*! C:\Users\Gerson\OneDrive\Área de Trabalho\PDS\front-end\clarim-diario-react\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Users\Gerson\OneDrive\Área de Trabalho\PDS\front-end\clarim-diario-react\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[1,"runtime-main",1]]]);
+//# sourceMappingURL=main.chunk.js.map

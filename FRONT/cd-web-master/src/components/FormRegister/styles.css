@@ -1,0 +1,120 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+.cadastro{
+    flex-wrap: wrap;
+    padding: 2%;
+    background-color: rgb(252, 252, 252);
+    margin-top: 5%;
+    /* flex-wrap: wrap; */
+}
+
+.cadastroDiv {
+    background-color: white;
+    min-width:300px;
+    width: 45%;
+    padding: 40px 25px; 
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cadastroDiv h3{
+    color: #6495ED;
+    text-align: center;
+  
+}
+
+.formCadastro {
+    display: flex;
+    flex-direction: column;
+}
+
+.ladoImage{
+    width: 45%;
+    margin-left: 1%;
+}
+
+.diario {
+   
+    color: orange;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.input{
+    border: 0 none;
+    border-bottom: thin solid;
+    margin-bottom: 50px;
+    text-align: justify;
+    background-color: rgba(200, 200, 200, 0);
+    color: #6495ED;
+}
+
+.input::-webkit-input-placeholder {
+    color: #6495ED;
+ }
+ 
+ .input:-moz-placeholder { 
+    color: #fbc271;  
+ }
+ 
+ .input::-moz-placeholder {  
+    color: #fbc271;  
+ }
+ 
+ .input:-ms-input-placeholder {  
+    color: #fbc271;  
+ }
+
+.input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    border-bottom: 1px solid;
+    outline: 0;
+    background-color: rgba(150, 150, 150, 0.0);
+    color: #fbc271;
+}
+
+.btnCadastro {
+    color: #fff;
+    background-color: #3f51b5;
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    padding: 6px 16px;
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.btnCadastro:hover {
+    color: #fff;
+    background-color: #3f51b5;
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    padding: 6px 16px;
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+
+}

@@ -1,0 +1,35 @@
+.divExcluirArtigo {
+    display: grid;
+    flex-wrap: wrap;
+    flex: 1;
+    border-right: solid 2px #fbc271;
+}
+
+.divExcluirArtigo h1{
+
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #fbc271;
+    color: white  
+}
+
+.divExcluirArtigo a{
+
+    text-align: center;
+    color: #fbc271;
+    padding: 10px
+}
+
+.divExcluirArtigo a:hover{
+    text-decoration: none;
+
+}
+
+.contentExcluir{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}

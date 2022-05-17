@@ -1,0 +1,141 @@
+.container{
+    width: 100%;
+    margin-top: 10% ;
+    margin-left: 7%;
+}
+
+.div-perfil{
+    padding-bottom: 5px;
+    border-bottom: solid 1px;
+}
+
+.perfil{
+    border-left: solid 1px #fbc271;
+    margin-left: 10px;
+    padding-left: 15px;
+    color:black;
+    text-align: center;
+}
+
+.div-imagem{
+    margin-left: 2%;
+    margin-top: 3%;
+    margin-right: 2%;
+
+}
+
+.imgUsuario{
+    width: 50%;
+    margin-left: 24%;
+    margin-bottom: 30px;
+   
+}
+
+.iconUsername{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 5px;
+    color:#fbc271
+}
+
+.iconPassword{
+    margin-top: -28px;
+    padding-left: 5px;
+    color:#fbc271
+}
+
+.iconEmail{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 5px;
+    color:#fbc271
+}
+
+.input-style::placeholder{
+   color: #fbc271;
+}
+ 
+.coluna3{
+    margin-right: 20px;
+}
+
+.form-1{
+    display: flex;
+    flex-wrap: wrap;
+    border: 0 none;
+}
+.input-style{
+    border-color: #fbc271;
+    padding-left: 25px;
+    color:#fbc271
+}
+
+ .input-style:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    background-color: rgba(150, 150, 150, 0.0);
+    color: #fbc271;
+}
+.input-2{
+    margin-top: 15%;
+}
+
+.form-textarea{
+    float: right;
+    margin-left: 36.8%;
+    margin-right: 60px;
+    padding-left: 25px;
+    border-color: #fbc271;
+    color:#fbc271
+}
+
+.form-textarea::placeholder{
+    color: #fbc271;
+}
+
+.form-textarea:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    background-color: rgba(150, 150, 150, 0.0);
+    color: #fbc271;
+
+}
+.iconUpload{
+    position: absolute;
+    color: #fff;
+    padding-left: 65px;
+    padding-top: 18px;
+}
+.iconBio{
+    position: absolute;
+    margin-left: 36%;
+    padding-top: 10px;
+    padding-left: 3px;
+    color:#fbc271
+}
+.inputFile{
+
+    color: #fbc271;
+}
+input[type='file'] {
+    display: none
+
+  }
+label.upload-file{
+  background-color: #6495ED;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  margin-left: 53px;
+  padding: 6px 18px 6px 35px
+}
+
+.botaoSalvar{
+    margin-top: 10px;
+    margin-left: 42%;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #6495ED;
+    border: 0 none;
+}

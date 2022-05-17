@@ -1,0 +1,73 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* classes to define buttons */
+  /* General classe  to buttons*/
+  button.cla-btn{
+  height: 20px;
+  border-style: solid;
+  font-size:12px;
+  transition-duration: 0.7s;
+  padding-left: 40px;
+  padding-right: 40px;
+  
+  font-family: 'Russo One', sans-serif;
+  }
+
+  
+  /*Subsclasses to buttons*/
+  button.cla-btn-info{
+  margin-bottom: 10px;
+  background-color:white;
+  border-color: #629CD0;
+  color: #629CD0;
+  
+  }
+  
+  textarea.cla-coment-area{
+      display: block;
+      width: 60%;
+      min-width: 320px;
+      border-color: #df612a;
+  }
+  button.cla-btn-info:hover{
+    background-color:#629CD0;
+    border-color: #629CD0;
+    color: white;
+   
+  }
+  
+  /*Subsclasses to buttons*/
+  button.cla-btn-success{
+    color:white;
+    border-color: #225E90;
+    background-color: #225E90;
+   
+  }
+  
+  button.cla-btn-success:hover{
+    border-color: #1a3357;
+    background-color: #1a3357;
+  }
+  
+  
+  /*Subsclasses to buttons*/
+  button.cla-btn-danger{
+    color:white;
+    border-color: #df612a;
+    background-color: #df612a;
+   
+  }
+  button.cla-btn-danger:hover{
+    border-color: #be2d13;
+    background-color: #be2d13;
+  }
+  
+  
+  
+
+
+
+ 

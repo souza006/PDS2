@@ -1,0 +1,46 @@
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: none
+}
+ 
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: #df9429;
+    align-items: center;
+    max-width: 1920px;
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 37%;
+    max-width: 37%;
+    padding: 7px;
+    min-width: 20%;
+}
+.iconUser {
+    border-radius: 50%;
+    max-width: 35%;
+}
+
+.icon {
+    color: #df9429
+}
+
+.optionsNavUser{
+    list-style: none;
+}
+
+.optionsNavUser a {
+    padding: 10px;
+    margin-left: 200px
+}
